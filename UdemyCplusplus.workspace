@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="UdemyCplusplus" Database="" Version="10000">
+  <Project Name="dollarchallenge" Path="dollarchallenge/dollarchallenge.project" Active="No"/>
+  <Project Name="EncryptDecrypt" Path="EncryptDecrypt/EncryptDecrypt.project" Active="No"/>
+  <Project Name="pointers" Path="pointers/pointers.project" Active="No"/>
+  <Project Name="ClassandObjects" Path="ClassandObjects/ClassandObjects.project" Active="No"/>
+  <Project Name="member_methods" Path="member_methods/member_methods.project" Active="No"/>
+  <Project Name="member_methods2" Path="member_methods2/member_methods2.project" Active="No"/>
+  <Project Name="Constructors_And_Destructors" Path="Constructors_And_Destructors/Constructors_And_Destructors.project" Active="No"/>
+  <Project Name="ConstructorInitialisationLists" Path="ConstructorInitialisationLists/ConstructorInitialisationLists.project" Active="No"/>
+  <Project Name="DelegatingConstructors" Path="DelegatingConstructors/DelegatingConstructors.project" Active="No"/>
+  <Project Name="copyconstructor" Path="copyconstructor/copyconstructor.project" Active="No"/>
+  <Project Name="shallowCopy" Path="shallowCopy/shallowCopy.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="dollarchallenge" ConfigName="Debug"/>
+      <Project Name="EncryptDecrypt" ConfigName="Debug"/>
+      <Project Name="pointers" ConfigName="Debug"/>
+      <Project Name="ClassandObjects" ConfigName="Debug"/>
+      <Project Name="member_methods" ConfigName="Debug"/>
+      <Project Name="member_methods2" ConfigName="Debug"/>
+      <Project Name="Constructors_And_Destructors" ConfigName="Debug"/>
+      <Project Name="ConstructorInitialisationLists" ConfigName="Debug"/>
+      <Project Name="DelegatingConstructors" ConfigName="Debug"/>
+      <Project Name="copyconstructor" ConfigName="Debug"/>
+      <Project Name="shallowCopy" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="dollarchallenge" ConfigName="Release"/>
+      <Project Name="EncryptDecrypt" ConfigName="Release"/>
+      <Project Name="pointers" ConfigName="Release"/>
+      <Project Name="ClassandObjects" ConfigName="Release"/>
+      <Project Name="member_methods" ConfigName="Release"/>
+      <Project Name="member_methods2" ConfigName="Release"/>
+      <Project Name="Constructors_And_Destructors" ConfigName="Release"/>
+      <Project Name="ConstructorInitialisationLists" ConfigName="Release"/>
+      <Project Name="DelegatingConstructors" ConfigName="Release"/>
+      <Project Name="copyconstructor" ConfigName="Release"/>
+      <Project Name="shallowCopy" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
