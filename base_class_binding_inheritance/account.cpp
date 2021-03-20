@@ -1,7 +1,7 @@
 #include "account.h"
 
 Account::Account()
-    :balance{0.0}{
+    :Account(0.0){
 }
 Account::Account(double balance)
     :balance(balance){
@@ -19,11 +19,7 @@ void Account::withdraw(double amount){
     }
 }
 
-Account::~Account(){
-    std::cout << "Destructor called" << std::endl;
-}
-
 std::ostream &operator<<(std::ostream &os, const Account &account){
-    os << "account balance" << account.balance;
+    os << "account balance " << account.balance;
     return os;
 }

@@ -9,16 +9,12 @@ Savings_Account::Savings_Account(double balance, double interest_rate)
 Savings_Account::Savings_Account()
     :Savings_Account{0.0, 0.0}{
 }
-void Savings_Account::deposit(double amount, double interest_rate){
-    amount = amount + (amount * interest_rate);
+void Savings_Account::deposit(double amount){
+    amount = amount + (amount * interest_rate/100);
     Account::deposit(amount);
 }
 
-Savings_Account::~Savings_Account(){
-    cout << "Savings?account Destructor called" << endl;
-}
-
-std::ostream &operator<<(std::ostream &os, const Savings_Account &Account){
-    os << "Savings account balance" << Account.balance << "Interest rate" << Account.interest_rate;
+std::ostream &operator<<(std::ostream &os, const Savings_Account &account){
+    os << "Savings account balance" << account.balance << "Interest rate" << account.interest_rate;
     return os;
 }

@@ -7,11 +7,10 @@ class Account{
 protected:
     double balance;
 public:
-Account();
-Account(double balance);
-void deposit(double amount);
-void withdraw(double amount);
-~Account();
+    Account();
+    Account(double balance);
+    void deposit(double amount);
+    void withdraw(double amount);
 };
 
 #endif
