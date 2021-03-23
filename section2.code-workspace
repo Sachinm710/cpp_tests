@@ -23,6 +23,9 @@
 		},
 		{
 			"path": "base_class_binding_inheritance"
+		},
+		{
+			"path": "multiple_accounts_base_class_binding_inheritance"
 		}
 	],
 	"launch": {
