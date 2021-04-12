@@ -26,6 +26,9 @@
 		},
 		{
 			"path": "multiple_accounts_base_class_binding_inheritance"
+		},
+		{
+			"path": "polymorphism_Intro"
 		}
 	],
 	"launch": {
