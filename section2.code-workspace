@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "polymorphism_Intro"
+		},
+		{
+			"path": "poymorphism_BaseClass_pointers_virtualfunc_virtualdestructors"
 		}
 	],
 	"launch": {
