@@ -1,5 +1,8 @@
 #include <iostream>
 
+// NOTE: If final is used in the end of class definition, it cannot be derived
+// by another class, same goes for a method
+
 class Base{
 public:
     virtual void say_hello() const{
