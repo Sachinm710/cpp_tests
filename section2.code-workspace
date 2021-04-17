@@ -35,6 +35,9 @@
 		},
 		{
 			"path": "polymorphism_override_specifier"
+		},
+		{
+			"path": "polymorphism_base_class_references"
 		}
 	],
 	"launch": {
