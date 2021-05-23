@@ -38,6 +38,9 @@
 		},
 		{
 			"path": "polymorphism_base_class_references"
+		},
+		{
+			"path": "pure_virtual_functions_polymorphism"
 		}
 	],
 	"launch": {
