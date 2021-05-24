@@ -41,6 +41,9 @@
 		},
 		{
 			"path": "pure_virtual_functions_polymorphism"
+		},
+		{
+			"path": "polymorphism_abstractClass_interface"
 		}
 	],
 	"launch": {
