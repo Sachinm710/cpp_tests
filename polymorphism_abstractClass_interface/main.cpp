@@ -25,7 +25,7 @@ public:
 
 class Checking: public Account{
 public:
-    virtual void withdraw(double amount){
+    virtual void withdraw(double amount)  override{
         std::cout << "In Checking: Withdraw" << std::endl;
     }
     virtual void print(std::ostream &os) const override{
@@ -36,7 +36,7 @@ public:
 
 class Savings: public Account{
 public:
-    virtual void withdraw(double amount){
+    virtual void withdraw(double amount) override{
         std::cout << "In Savings: Withdraw" << std::endl;
     }
     virtual void print(std::ostream &os) const override{
@@ -47,7 +47,7 @@ public:
 
 class Trust: public Account{
 public:
-    virtual void withdraw(double amount){
+    virtual void withdraw(double amount) override{
         std::cout << "In Trust: Withdraw" << std::endl;
     }
     virtual void print(std::ostream &os) const override{
