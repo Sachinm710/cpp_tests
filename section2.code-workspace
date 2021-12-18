@@ -44,6 +44,9 @@
 		},
 		{
 			"path": "polymorphism_abstractClass_interface"
+		},
+		{
+			"path": "Uniquepointers"
 		}
 	],
 	"launch": {
