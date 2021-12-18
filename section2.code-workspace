@@ -47,6 +47,9 @@
 		},
 		{
 			"path": "Uniquepointers"
+		},
+		{
+			"path": "shared_pointers"
 		}
 	],
 	"launch": {
